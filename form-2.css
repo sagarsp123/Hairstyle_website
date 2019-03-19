@@ -1,0 +1,60 @@
+
+
+	length{color: white;
+		font-size: 18px;
+		font-style: bold;
+		}
+	my { color:white;
+		 font-size: 20px;
+		 font-style : bold;
+		   }
+
+	
+input[type=text] , select {width: 70%;
+		padding: 10px 20px;
+		font-size:15px;
+		margin: 8px 0;}
+
+	button{
+		
+		width: 300px;
+		background:#4CAF50;
+		margin: 8px 0;
+		color: white;
+		margin: 8px;
+		border: none;
+		padding: 14px 20px;
+		font-size: 20px;
+		cursor: pointer;}
+
+	.container {
+    position: absolute;
+    margin: 20px;
+    width: 500px;
+    height: 650px;
+    padding: 20px;
+    background-color:#778899;
+    }
+    
+
+	a:hover{color: #d3d9de}
+	a{
+
+		font-size:20px;
+		padding: 5px;
+		color: white;
+		padding: 20px 40px;
+		margin: 0px;
+		cursor: pointer;
+	}
+.footer {
+   right: 0;
+   bottom: 0;
+   position: fixed;
+   width: 15%;
+   padding: 5px;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+

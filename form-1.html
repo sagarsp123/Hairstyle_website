@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Regisetr</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="form1.css">
+</head>
+<body background="images/h4.jpg" style="background-size: cover;margin: 0px">
+	<h1 style="background:#737373;padding: 20px; margin: 0px;">
+	
+	<a href="homepage.php"style="text-decoration: none">Home</a>
+	<a href="aboutpage.php"style="text-decoration: none">About Us</a>
+	<a href="form-1.php" style="text-decoration: none">Register</a>
+	<a href="animations.php" style="text-decoration: none">Gallery</a>
+	<a href="form-2.php" style="text-decoration: none">Style</a>
+	<a href="feedback.php"style="text-decoration: none">Feedback</a>
+	<a href="Contact.php"style="text-decoration: none">Contact Us</a>
+	<a href="https://www.facebook.com/"><i class="fa fa-facebook" onMouseOver="this.style.color='#0000cc'" onMouseOut="this.style.color='white'" style="color: white;float: right;padding: 15px;"></i></a>
+
+	<a href="https://www.instagram.com/"><i class="fa fa-instagram" onMouseOver="this.style.color='pink'" onMouseOut="this.style.color='white'" style="float:right;color: white; padding: 15px;"></i></a>
+	
+	<a href="https://www.twitter.com/"><i class="fa fa-twitter" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='white'" style="color: white;float: right;padding: 15px;"></i></a>
+	</h1>
+		
+		<form action="Logindatabase.php" method="post" class="container">
+		<CENTER>
+			<h2>REGISTER HERE</h2>	
+		</CENTER>		
+				<fieldset>
+		<legend><strong>PERSONAL INFORMATION</strong></legend></br>
+		FIRST NAME : <input type="text" name="firstname" placeholder="Enter your first name" required ><br><br>
+		LAST NAME : <input type="text" name="lastname" placeholder="Enter your last name" required ><br><br>
+		DATE OF BIRTH : <input type="date" name="dob" placeholder="Select your date of birth" required><br><br>
+		AGE : <input type="number" name="age" placeholder="Enter your age" required><br><br>
+		EMAIL ID : <input type="email" name="email" placeholder="Enter your email" required><br><br>
+		Password: <input type="password" name="pwd" maxlength="8" placeholder="Enter your password" required><br><br>
+		<label for="#ta">ADDRESS : </label></br></br><textarea rows="5" columns="10" name="address" id="ta" placeholder="Enter your address"></textarea><br><br>
+		CONTACT NO : <input type="text" name="contact" placeholder="Enter your Contact" onkeypress="isInputNumber(event)" pattern="[1-9]{1}[0-9]{9}" ><br><br>
+		</fieldset></br>
+		WE ARE PROCESSING YOUR INFORMATION : <progress>unknown</progress>
+
+	  	<center><button type="submit" value="Proceed" >Proceed -</button></center>
+	    </form><br><br>
+
+	<script>document.createElement("my")</script>
+	<script>document.createElement("size")</script>
+	<script>document.createelement("check")</script>
+<script>
+function isInputNumber(evt){
+	var ch = String.fromCharCode(evt.which);
+	if(!(/[0-9]/.test(ch))){
+		evt.preventDefault();
+	}
+}
+
+</script>  
+
+ <div class="footer">
+ <a href="form-1.php">REGISTER</a>
+ </div>	
+
+</body>
+		   
+</html>
